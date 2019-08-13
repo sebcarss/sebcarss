@@ -1,8 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is set up to run a personal blog for Seb Carss. It is built using React and wass bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The site is hosted by [Surge](https://surge.sh), which makes it incredibly easy to get a personal blog set up using just the `surge` command. 
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run deploy`
+
+Builds the app for production to the `build` folder, renames the index.html to 200.html (for reasons expressed [here](https://medium.com/@Jeff_Duke_io/how-to-deploy-an-app-using-react-and-react-router4-fe5f02a27a97)), runs the `surge` command to publish the `build` folder to `sebcarss.surge.sh`.
 
 ### `npm start`
 
